@@ -1,0 +1,64 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Node modules
+node_modules/
+/.pnp
+/.pnp.js
+
+# Production dependencies
+dist/
+build/
+/.vite/
+
+# Build artifacts
+src/compiled/
+src/bundled/
+
+# WASM Files (Optional: if you want to keep them in source control, otherwise keep in public/)
+# *.wasm
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+*.sublime-workspace
+*.sublime-project
+
+# TypeScript / JavaScript cache
+.cache/
+
+# Package lock files (if you want to keep them, uncomment if you prefer)
+# package-lock.json
+# yarn.lock
